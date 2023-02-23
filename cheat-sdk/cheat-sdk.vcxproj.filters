@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="context.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\console\console.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="valve\modules\modules.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="valve\interfaces\interfaces.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\math\math.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="valve\net_vars\net_vars.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\pe\pe.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\memory\pattern.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hooks\hooks.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hooks\fn\client.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hooks\fn\engine.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="valve\other\base_handle.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\eng_pred\eng_pred.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="valve\shared\user_cmd.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\autowall\autowall.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\color\color.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ent_list\ent_list.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hooks\fn\client_ent_list.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\esp\entity\world.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\esp\entity\player.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\esp\entity\grenade.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\esp\esp.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_demo.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_draw.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_tables.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_widgets.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\render\render.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hooks\fn\direct_device.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_impl_dx9.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_impl_win32.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\menu\menu.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hooks\fn\surface.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\misc\misc.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\features\chams\chams.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="valve\tier1\key_values.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="core\hooks\fn\model_render.cc">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="context.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\console\console.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\modules\modules.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\valve.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\shared\shared.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\interfaces\interfaces.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\engine\engine.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\data_cache\data_cache.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\client\client.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\xor\xor.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\server\server.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\shared\move_helper.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math\math.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math\vector.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\net_vars\net_vars.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\dt_recv.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\other.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\prediction.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\pe\pe.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\fnv1a\fnv1a.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\deps.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\memory\address.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\memory\memory.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\memory\pattern.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hooks\hooks.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\client\cdll_client_init.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\client_class.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\tier1\tier1.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\tier1\interfaces.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\client\base_player.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\client_entity.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\client_unknown.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\engine\collideable.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math\matrix.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\bone_accessor.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\cmodel.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\game_trace.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\engine\engine_trace.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\bsp_flags.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\handle_entity.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\base_handle.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\client_entity_list.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\client_networkable.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\client\base_entity.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\eng_pred\eng_pred.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\engine\client_state.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\engine\cdll_engine_init.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\cdll_init.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\globals.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\shared\game_movement.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\client\input.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\shared\user_cmd.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\math\utl.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\features.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\client\base_weapon.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\steam\steam_api_internal.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\steam\steam_client.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\steam\steam_screenshot.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\steam\steam.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\client\client_mode.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\steam\steam_api.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\autowall\autowall.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\tier1\convar.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\cvar.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\color\color.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\shared\shareddefs.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\phys_props.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\ent_list\ent_list.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\esp\esp.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imconfig.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui_internal.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_rectpack.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_textedit.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_truetype.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\render\render.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui_impl_dx9.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui_impl_win32.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\menu\menu.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\vgui\vgui.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\vgui\surface.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\engine\vgui_baseui.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\const.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\datamap.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\misc\misc.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\shared\in_buttons.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="core\features\chams\chams.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\mat_sys\material.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\mat_sys\mat_sys.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\mat_sys\material_var.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\vstdlib\key_values_sys.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\vstdlib\vstdlib.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\tier1\key_values.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\engine\model_render.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="valve\other\studio.hh">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
